@@ -1,0 +1,226 @@
+.operate-container{
+  width: calc(100% - 40px);
+  padding: 15px 20px;
+}
+.pc-container{
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 12px;
+}
+
+/* 列表按钮组样式 */
+.list-Button{
+  display: flex;
+}
+.list-form{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap:wrap
+}
+.operate-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+
+/* 公共按钮样式 */
+.el-button--primary{
+  background-color: #0195DB;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.el-button--primary.is-plain{
+  height: 28px;
+  border-radius: 5px;
+  color: #0195DB;
+  border: 1px solid #0195DB;
+  background-color: #FFFFFF;
+}
+.el-button--primary.is-plain:focus, .el-button--primary.is-plain:hover{
+  color: #ffffff;
+  border: 1px solid #0195DB;
+  background-color: #0195DB;
+}
+.el-button--danger.is-plain{
+  height: 28px;
+  border-radius: 5px;
+  color: #FF798D;
+  border: 1px solid #FF798D;
+  background-color: #FFFFFF;
+}
+.el-button--danger.is-plain:focus, .el-button--danger.is-plain:hover{
+  color: #FFFFFF;
+  border: 1px solid #FF798D;
+  background-color: #FF798D;
+}
+
+/* 滚动条样式 */
+* {
+  scrollbar-color: #e5e5e5 #f7f7f9; /* 滑块颜色  滚动条背景颜色 */
+  scrollbar-width: thin; /* 滚动条宽度有三种：thin、auto、none */
+}
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+.el-select-dropdown .el-scrollbar {
+  padding-bottom: 17px;
+}
+.el-cascader-menu {
+  padding-bottom: 15px;
+}
+.page-component__scroll{
+  height: 100%;
+}
+
+body::-webkit-scrollbar{
+  width:6px;
+  height:10px;
+}
+body::-webkit-scrollbar-track{
+  background: rgb(239, 239, 239);
+  border-radius:2px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #bfbfbf;
+  border-radius:10px;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: #666666;
+}
+
+div::-webkit-scrollbar{
+  width:10px;
+  height:10px;
+}
+div::-webkit-scrollbar-track{
+  background: rgb(239, 239, 239);
+  border-radius:2px;
+}
+div::-webkit-scrollbar-thumb{
+  background: #bfbfbf;
+  border-radius:10px;
+}
+div::-webkit-scrollbar-thumb:hover{
+  background: #666666;
+}
+div::-webkit-scrollbar-corner{
+  background: #ececec;
+}
+
+/* 文本框样式 */
+.el-input.is-disabled .el-input__inner{
+  color: #666666;
+}
+
+/* layer样式层 */
+.vl-notify.vl-notify-main{
+  border-radius: 15px;
+}
+
+/* 字体大小 */
+.f12{
+  font-size: 12px;
+}
+.f14{
+  font-size: 14px;
+}
+.f15{
+  font-size: 15px;
+}
+.f16{
+  font-size: 16px;
+}
+.f18{
+  font-size: 18px;
+}
+.f20{
+  font-size: 20px;
+}
+.f22{
+  font-size: 22px;
+}
+.f24{
+  font-size: 24px;
+}
+
+/* 内外边距 */
+.mt5{
+  margin-top:5px; 
+}
+.mt10{
+  margin-top:10px; 
+}
+.mt15{
+  margin-top:15px; 
+}
+.mt20{
+  margin-top:20px; 
+}
+
+.mr10{
+  margin-right:10px; 
+}
+.mr15{
+  margin-right:15px; 
+}
+.mr20{
+  margin-right:20px; 
+}
+.mb5{
+  margin-bottom:5px; 
+}
+.mb10{
+  margin-bottom:10px; 
+}
+.mb15{
+  margin-bottom:15px; 
+}
+.mb20{
+  margin-bottom:20px; 
+}
+
+.ml10{
+  margin-left:10px; 
+}
+.ml15{
+  margin-left:15px; 
+}
+.ml20{
+  margin-left:20px; 
+}
+.ml50 {
+  margin-left: 50px;
+}
+.ml20 {
+  margin-left: 50px;
+}
+.tal
+{
+  text-align:left
+}
+/* 鼠标样式 */
+.mous{
+  cursor: pointer
+}
+.mou{
+  cursor: default
+}
+.oh{
+  overflow: hidden;
+}
+/* 文字样式 */
+.omit{
+  overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.omits{
+  display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+}
